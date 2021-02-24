@@ -12,6 +12,7 @@ proxy:
   kubernetes:
     internal-networking: true
     url: http://localhost:8001
+    namespace: ds-03
   specs:
   - id: 01_hello
     display-name: Hello Application
